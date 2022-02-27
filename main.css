@@ -1,0 +1,146 @@
+:root {
+    --width-block: 200px;
+    --color-main: rgb(243, 243, 223);
+}
+
+.block {
+    position: relative;
+    width: var(--width-block);
+    height: 200px;
+    left: calc(50% - var(--width-block) / 2);
+    top: 180px;
+    display: inline-block;
+    background-color: var(--color-main);
+    border-radius: 4px;
+}
+
+
+
+.box {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.text {
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    left: calc(50%);
+    transform: translate(-50%);
+    font-size: 20px;
+    color: black;
+}
+
+.a1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.a2 {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+.a3 {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+.a4 {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+
+.a5 {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+.a6 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.a7 {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.a8 {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+
+.a9 {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+
+.a10 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.a11 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.a12 {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+
+.a13 {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.a14 {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.a15 {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.a0 {
+    position: absolute;
+    background-color: var(--color-main);
+    /* top: 150px;
+    left: 150px; */
+}
+
+.reset {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 5px;
+    font-size: 18px;
+    top: 210px;
+    border-width: 0px;
+    left: calc(50% - 20px);
+}
